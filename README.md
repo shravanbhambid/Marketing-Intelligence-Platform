@@ -22,5 +22,5 @@ Supports CSV and Excel (.xlsx) files for sentiment, leads, and campaign data.
 Helps marketing and sales teams make smarter, data-driven decisions using AI.
 
 
-  ![Image Alt]().
+  ![Image Alt](https://github.com/shravanbhambid/Marketing-Intelligence-Platform/blob/main/Screenshot%202026-01-16%20213739.png)
 
