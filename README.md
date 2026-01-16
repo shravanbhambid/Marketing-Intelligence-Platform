@@ -22,5 +22,5 @@ Supports CSV and Excel (.xlsx) files for sentiment, leads, and campaign data.
 Helps marketing and sales teams make smarter, data-driven decisions using AI.
 
 
-
+ ![Image Alt](image_url)
 
