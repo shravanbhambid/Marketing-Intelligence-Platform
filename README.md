@@ -1,73 +1,165 @@
-# React + TypeScript + Vite
+📊 Marketing Intelligence Platform
+🚀 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Marketing Intelligence Platform is an AI-powered, end-to-end solution designed to help businesses make data-driven marketing and sales decisions. It integrates customer sentiment analysis, AI-driven content generation, lead scoring, and marketing campaign performance prediction into a single, unified, and user-friendly dashboard. The platform leverages the Google Gemini API for advanced NLP and reasoning, while allowing users to upload data easily in Excel or CSV formats.
 
-Currently, two official plugins are available:
+🎯 Problem Statement
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Marketing teams often work with fragmented tools for customer feedback analysis, content creation, lead prioritization, and campaign evaluation. This leads to inconsistent insights, delayed decisions, and inefficient marketing strategies. This project solves that problem by providing a centralized AI-powered intelligence system where insights from one module directly inform others.
 
-## React Compiler
+✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Easy data upload using Excel (.xlsx) or CSV files
 
-## Expanding the ESLint configuration
+Customer sentiment analysis with confidence scores
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Topic extraction and trend identification from feedback
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+AI-generated marketing content with brand consistency
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Platform-specific content for social media and email
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Explainable lead scoring and prioritization
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Campaign performance prediction with ROI estimation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Cross-module insights and unified analytics
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🧩 System Modules
+1️⃣ Customer Sentiment Analysis Dashboard
+
+Processes customer reviews, social media mentions, and survey responses
+
+Classifies sentiment as Positive, Neutral, or Negative
+
+Generates confidence scores for predictions
+
+Extracts key themes and topics
+
+Identifies trending issues and sudden sentiment shifts
+
+Visualizes sentiment trends over time
+
+Generates actionable insights for marketing and product teams
+
+2️⃣ Content Generation Assistant
+
+Generates multiple variations of:
+
+Ad copies
+
+Email subject lines
+
+Social media posts
+
+Maintains brand voice using provided guidelines
+
+Adapts content for platforms like Facebook, Instagram, LinkedIn, Twitter, and Email
+
+Ensures character limit compliance
+
+Predicts engagement likelihood
+
+Suggests A/B testing strategies
+
+3️⃣ Lead Scoring System
+
+Analyzes lead demographics, engagement metrics, and behavioral signals
+
+Assigns weighted lead scores
+
+Segments leads into Hot, Warm, and Cold categories
+
+Provides clear explanations for each lead score
+
+Supports CRM-friendly data formats (CSV, Excel, JSON)
+
+Exports prioritized lead lists for sales teams
+
+4️⃣ Marketing Campaign Performance Predictor
+
+Analyzes historical campaign data such as:
+
+Channel
+
+Budget
+
+Audience
+
+Timing
+
+Predicts impressions, clicks, conversions, and ROI
+
+Provides confidence intervals for predictions
+
+Identifies success and risk factors
+
+Supports what-if scenario analysis
+
+Suggests optimization strategies for future campaigns
+
+🔄 Cross-Module Intelligence
+
+Sentiment insights influence content tone and messaging
+
+Lead scoring results inform campaign targeting
+
+Campaign performance predictions improve content and budget allocation
+
+Unified reporting across all modules
+
+🛠 Technology Stack
+
+Google Gemini API – NLP, content generation, reasoning
+
+Python – Core development
+
+Pandas, NumPy – Data processing
+
+Streamlit / Flask – User interface
+
+Plotly / Matplotlib – Data visualization
+
+📁 Data Input
+
+Supported formats: CSV, Excel (.xlsx)
+
+Sample datasets included for:
+
+Customer Sentiment
+
+Leads
+
+Campaign Performance
+
+👥 Target Users
+
+Marketing teams
+
+Sales teams
+
+Business analysts
+
+Startups and enterprises seeking AI-driven marketing insights
+
+📈 Use Cases
+
+Understand customer perception and feedback trends
+
+Generate high-quality marketing content at scale
+
+Prioritize high-intent sales leads
+
+Predict and optimize marketing campaign performance
+
+🔮 Future Enhancements
+
+Real-time social media data ingestion
+
+CRM integrations (Salesforce, HubSpot)
+
+Automated campaign execution
+
+Advanced ML-based performance forecasting
+
+Role-based access control
