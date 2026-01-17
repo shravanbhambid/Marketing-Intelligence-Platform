@@ -77,6 +77,11 @@ export default defineConfig([
   ![Image Alt](https://github.com/shravanbhambid/Marketing-Intelligence-Platform/blob/main/Screenshot%202026-01-16%20213739.png)
 
   ![Image Alt](https://github.com/shravanbhambid/Marketing-Intelligence-Platform/blob/main/Screenshot%202026-01-16%20213844.png)
+  
+  ![Image Alt](https://github.com/shravanbhambid/Marketing-Intelligence-Platform/blob/main/Screenshot%202026-01-16%20213856.png)
+
+  ![Image Alt](https://github.com/shravanbhambid/Marketing-Intelligence-Platform/blob/main/Screenshot%202026-01-16%20213915.png)
+    
 
   
 
